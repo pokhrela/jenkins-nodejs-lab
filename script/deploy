@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ssh app@34.235.136.95
+ssh app@node-alb-1216695753.us-east-1.elb.amazonaws.com
   cd ~/jenkins-nodejs-lab
   git pull
   npm install
